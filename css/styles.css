@@ -1,0 +1,547 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital@1&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.navbar-name {
+    color: #64ffda;
+    position: absolute;
+    width: 30%;
+    left: 0;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    float: left;
+    font-size: 26px;
+    cursor: default;
+    font-family: MontSerrat, Tahoma, Arial, sans-serif;
+
+    
+    background: linear-gradient(to right, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    height: 80px;
+    background-color: #EFF5F5;
+    opacity: 1;
+    z-index: 1;
+    
+    
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.pages{
+    color: black;
+    font-family: sans-serif;
+    width: 70%;
+    float: right;
+    
+    line-height: 80px;
+     
+}
+.pages ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.pages ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.pages ul li a:hover{
+    color: red;
+}
+.intro{
+    position: relative;
+    margin-top: 80px;
+    z-index: 0;
+    margin-left: 50px;
+     display: flex;
+    flex-direction: column;
+}
+.hey{
+    position: absolute;
+    width: 50%;
+    height: fit-content;
+    margin-top: 15rem;
+    margin-left: 10px;
+    color:#0A2342;
+    font-size: 2.3rem;
+    float: left;    
+}
+
+
+.i-am{
+    position: absolute;
+    width: 50%;
+    margin-top: 21rem;
+    height: fit-content;
+    color: #0A2342;
+    font-size: 2.3rem;
+    margin-left: 10px;
+    float: left;
+    
+}
+.profile-picture{
+    position: absolute;
+    width: 50%;
+    float: right;
+    margin-left: 50%;
+    text-align: center;
+    margin-top: 14rem;
+    
+}
+.pic{
+    max-width: 100%;
+    height: auto;
+    
+}
+.intro-name{
+    position: absolute;
+    width: 100%;
+    margin-top: 26rem;
+    height: fit-content;
+    color: #0A2342;
+    font-size: 3rem;
+    float: left;
+    
+    
+}
+.myName{
+    color: orange;
+}
+.intro-bio{
+    position: absolute;
+    color: #0A2342;
+    margin-top: 34rem;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.btn{
+    margin-top: 39rem;
+    width: 6%;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #0a192f;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    text-align: center;
+
+}
+.btn:hover{
+    font-weight: bold;
+    background-color: #1c355c;
+}
+.blue{
+background-color: #0a192f;
+}
+.copyright{
+    background-color: #FDFFFC;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+.picture{
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.about-data{
+    margin-top: 1rem
+}
+.title{
+    margin: 2rem 25% 2rem 25%;
+    font-size: 2.4rem;
+    
+    color: #fff;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+.data{
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin: 2rem 25% 2rem 25%;
+    
+    font-size: 1.4rem;
+    color: #a8b2d1;
+    float: inline-start;
+    
+}
+.number{
+    color: #64ffda;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 1.8rem;
+}
+.schools{
+    margin: 3rem 25% 3rem 25%;
+}
+.degree{
+    color: #a8b2d1;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 1.5rem;
+    text-decoration:underline;
+    margin-top: 1rem;
+
+}
+.timeline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #64ffda;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 1rem;
+
+}
+.points{
+    color: #a8b2d1;
+    list-style-type:circle;
+    list-style: circle;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 1.3rem;
+    
+    margin-bottom: 10px;
+}
+.technologies{
+    margin-top: 6rem;
+}
+.images{
+    margin: 5rem 25% 6rem 25%;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.tech{
+    margin: 50px 50px;
+    
+}
+.tech:hover{
+    border-bottom: 2px solid ;
+    border-radius: 7%;
+    
+}
+.html:hover{
+    border-bottom-color: #FF7000;
+}
+.css:hover{
+    border-bottom-color: #009EFF ;
+}
+.bs:hover{
+    border-bottom-color: #7743DB ;
+}
+.js:hover{
+    border-bottom-color: #FFE15D ;
+}
+.nodejs:hover{
+    border-bottom-color: #82CD47 ;
+}
+.react:hover{
+    border-bottom-color: #7DE5ED ;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.project{
+    text-align: center;
+}
+.main-row{
+    width: 100%;
+    
+}
+.project-name{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+.img-column{
+   
+  
+    width: 50%;
+}
+.pro-img{
+     width: 100%;
+     margin-left: 50%;
+    
+     text-align: center;
+     margin-top: 1rem;
+     margin-bottom: 3rem;
+}
+.pro-img android{
+    height: 50px;
+}
+.about-column{
+    
+    margin-left:50%;
+    width: 100%;
+    
+    display: inline-block;
+    margin-top: 0.3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #a8b2d1;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 1.3rem;
+}
+
+.links{
+    margin-top: 4rem;
+    color: #0A2342;
+;   margin-bottom: 1rem;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;;
+    font-size: 1.2rem;
+
+}
+.plugin{
+    margin-right:1rem;
+    margin-bottom: 4rem;
+    color: black;
+}
+.last{
+    bottom: 0;
+}
+
+
+.education{
+    margin-top: 70px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.work{
+    margin-top: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.timeline2{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position:relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+
+
+
+}
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.container:nth-child(1){
+    animation-delay: 0s;
+}
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.left-container{
+    left: 0;
+
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px;
+
+}
+.timeline2::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 2.9s linear forwards;
+}
+
+ @keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+ }
+.text-box h2{
+    font-weight: 600;
+
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+
+@media screen and (max-width: 600px){
+    .timeline2{
+        margin: 50px auto;
+    }
+    .timeline2::after{
+        left: 31px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    }
+}
+
+
