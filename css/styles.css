@@ -57,10 +57,9 @@ nav{
     background-color: #EFF5F5;
     opacity: 1;
     z-index: 1;
-    
-    
-    margin: auto;
-    padding: 20px 0;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
 }
@@ -203,7 +202,6 @@ background-color: #0a192f;
 .title{
     margin: 2rem 25% 2rem 25%;
     font-size: 2.4rem;
-    
     color: #fff;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
@@ -211,7 +209,7 @@ background-color: #0a192f;
 .data{
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     margin: 2rem 25% 2rem 25%;
-    
+    margin-bottom: 70px;
     font-size: 1.4rem;
     color: #a8b2d1;
     float: inline-start;
@@ -385,10 +383,7 @@ background-color: #0a192f;
 .last{
     bottom: 0;
 }
-
-
 .education{
-    margin-top: 70px;
     box-sizing: border-box;
     text-align: center;
 }
